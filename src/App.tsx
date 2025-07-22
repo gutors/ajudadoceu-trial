@@ -9,7 +9,7 @@ let dadosDiarios: AstrologicalData | null = null;
 // Função para carregar os dados astrológicos limitados
 async function carregarDados(): Promise<void> {
   try {
-    const response = await fetch("/dados_brinde.json");
+    const response = await fetch("dados_brinde.json");
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
