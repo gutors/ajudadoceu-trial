@@ -96,6 +96,10 @@ function App() {
     verificarData(selectedDate);
   };
 
+  const handleRedirect = () => {
+    window.open("https://applua.fengshuiedecoracao.com.br/ajudadoceu/", "_blank");
+  };
+
   const renderCalendario = () => {
     if (!dadosDiarios) return null;
 
@@ -273,14 +277,15 @@ function App() {
           
           <div className="cta-section">
             <h3>🌟 Quer o ano completo?</h3>
-            <p>Este é apenas um brinde com julho e agosto de 2025. Adquira o ebook completo e tenha acesso a:</p>
+            <p>Este é apenas um brinde com os meses de Julho e Agosto de 2025. Adquira o ebook completo e tenha acesso a:</p>
             <ul>
               <li>✨ Dados de Janeiro 2025 a Março 2026</li>
-              <li>🌙 Todas as fases da lua e horários da LFC</li>
+              <li>🌙 Todas as fases da lua e horários da LFC (Lua fora de Curso)</li>
               <li>⚡ Períodos completos de Mercúrio Retrógrado</li>
-              <li>🌟 Todos os trânsitos planetários e eclipses</li>
+              <li>🌟 Trânsitos planetários importantes</li>
+              <li>🌒 Eclipses e seus significados</li>
             </ul>
-            <button className="btn-cta">Adquirir Ebook Completo</button>
+            <button className="btn-cta" onClick={handleRedirect}>Adquirir Ebook Completo</button>
           </div>
         </div>
       </div>
@@ -313,9 +318,9 @@ function App() {
           </div>
           
           <div className="cta-section">
-            <p><strong>📅 Brinde:</strong> Apenas julho e agosto 2025</p>
+            <p><strong>📅 Brinde:</strong> Apenas Julho e Agosto de 2025</p>
             <p>Para ter acesso ao ano completo, adquira o ebook!</p>
-            <button className="btn-cta">Ver Ebook Completo</button>
+            <button className="btn-cta" onClick={handleRedirect}>Ver Ebook Completo</button>
           </div>
         </div>
       </div>
@@ -323,7 +328,7 @@ function App() {
       <div id="info" className={`tab-content ${activeTab === 'info' ? 'active' : ''}`}>
         <div className="info-card">
           <h3>🎁 Sobre este Brinde</h3>
-          <p>Este aplicativo contém dados astrológicos para <strong>julho e agosto de 2025</strong> como uma amostra grátis do ebook completo "Ajuda do Céu".</p>
+          <p>Este aplicativo exclusivo contém dados astrológicos para <strong>Julho e Agosto de 2025</strong>. Ele é uma amostra grátis, para acessar a versão completa adquira o ebook completo "Ajuda do Céu".</p>
         </div>
 
         <div className="info-card">
@@ -344,12 +349,12 @@ function App() {
           <p>O ebook "Ajuda do Céu" contém:</p>
           <ul>
             <li>📅 Dados de Janeiro 2025 a Março 2026</li>
-            <li>🌙 Todas as fases da lua com horários precisos</li>
+            <li>🌙 Todas as fases da lua e horários da LFC (Lua fora de Curso)</li>
             <li>⚡ Períodos completos de Mercúrio Retrógrado</li>
             <li>🌟 Trânsitos planetários importantes</li>
             <li>🌒 Eclipses e seus significados</li>
           </ul>
-          <button className="btn-cta">Adquirir Agora</button>
+          <button className="btn-cta" onClick={handleRedirect}>Adquirir Agora</button>
         </div>
       </div>
 
