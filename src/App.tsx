@@ -276,8 +276,8 @@ function App() {
           )}
           
           <div className="cta-section">
-            <h3>🌟 Quer o ano completo?</h3>
-            <p>Este é apenas um brinde com os meses de Julho e Agosto de 2025. Adquira o ebook completo e tenha acesso a:</p>
+            <h3>🌟 Quer ter acesso ao ano completo?</h3>
+            <p>Este é apenas um brinde com os meses de Julho e Agosto de 2025. Adquira o Ebook e o App completo e tenha acesso a:</p>
             <ul>
               <li>✨ Dados de Janeiro 2025 a Março 2026</li>
               <li>🌙 Todas as fases da lua e horários da LFC (Lua fora de Curso)</li>
@@ -285,7 +285,7 @@ function App() {
               <li>🌟 Trânsitos planetários importantes</li>
               <li>🌒 Eclipses e seus significados</li>
             </ul>
-            <button className="btn-cta" onClick={handleRedirect}>Adquirir Ebook Completo</button>
+            <button className="btn-cta" onClick={handleRedirect}>Adquirir Ebook+App Completo</button>
           </div>
         </div>
       </div>
@@ -319,8 +319,8 @@ function App() {
           
           <div className="cta-section">
             <p><strong>📅 Brinde:</strong> Apenas Julho e Agosto de 2025</p>
-            <p>Para ter acesso ao ano completo, adquira o ebook!</p>
-            <button className="btn-cta" onClick={handleRedirect}>Ver Ebook Completo</button>
+            <p>Para ter acesso ao ano completo, adquira o Ebook!</p>
+            <button className="btn-cta" onClick={handleRedirect}>Adquirir Ebook+App Completo</button>
           </div>
         </div>
       </div>
@@ -328,12 +328,12 @@ function App() {
       <div id="info" className={`tab-content ${activeTab === 'info' ? 'active' : ''}`}>
         <div className="info-card">
           <h3>🎁 Sobre este Brinde</h3>
-          <p>Este aplicativo exclusivo contém dados astrológicos para <strong>Julho e Agosto de 2025</strong>. Ele é uma amostra grátis, para acessar a versão completa adquira o ebook completo "Ajuda do Céu".</p>
+          <p>Este aplicativo exclusivo contém dados astrológicos para <strong>Julho e Agosto de 2025</strong>. <br/> Ele é uma amostra grátis, para acessar a versão completa adquira o ebook completo "Ajuda do Céu".</p>
         </div>
 
         <div className="info-card">
           <h3>Lua Fora de Curso</h3>
-          <p>Período em que a Lua não faz aspectos com outros planetas antes de mudar de signo. Não é recomendado iniciar projetos importantes ou tomar decisões cruciais.</p>
+          <p>Período em que a Lua não faz aspectos com outros planetas antes de mudar de signo. <br/> Não é recomendado iniciar projetos importantes ou tomar decisões cruciais.</p>
         </div>
 
         <div className="info-card">
@@ -345,8 +345,8 @@ function App() {
         </div>
 
         <div className="info-card">
-          <h3>🌟 Ebook Completo</h3>
-          <p>O ebook "Ajuda do Céu" contém:</p>
+          <h3>🌟 Ebook e App Completo</h3>
+          <p>O Ebook "Ajuda do Céu" contém:</p>
           <ul>
             <li>📅 Dados de Janeiro 2025 a Março 2026</li>
             <li>🌙 Todas as fases da lua e horários da LFC (Lua fora de Curso)</li>
@@ -354,12 +354,12 @@ function App() {
             <li>🌟 Trânsitos planetários importantes</li>
             <li>🌒 Eclipses e seus significados</li>
           </ul>
-          <button className="btn-cta" onClick={handleRedirect}>Adquirir Agora</button>
+          <button className="btn-cta" onClick={handleRedirect}>Adquirir Ebook+App Completo</button>
         </div>
       </div>
 
       <footer>
-        &copy; 2025 Ajuda do Céu - Brinde | Baseado no ebook de <span className="author">Letícia Andrade</span>
+        &copy; 2025 Ajuda do Céu - Brinde | Baseado no Ebook de <span className="author">Letícia Andrade</span>
       </footer>
     </div>
   );
