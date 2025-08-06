@@ -3,7 +3,7 @@ import './App.css';
 import { AstrologicalData, DailyData } from './types';
 import luaIcon from './assets/lua-icon.png';
 
-// Dados astrológicos limitados (julho e agosto 2025)
+// Dados astrológicos limitados (agosto e setembro 2025)
 let dadosDiarios: AstrologicalData | null = null;
 
 // Função para carregar os dados astrológicos limitados
@@ -15,7 +15,7 @@ async function carregarDados(): Promise<void> {
     }
     const data: AstrologicalData = await response.json();
     dadosDiarios = data;
-    console.log("Dados astrológicos de julho e agosto carregados com sucesso");
+    console.log("Dados astrológicos de agosto e setembro carregados com sucesso");
   } catch (error) {
     console.error("Erro ao carregar dados astrológicos:", error);
     alert("Erro ao carregar os dados astrológicos. Tente recarregar a página.");
@@ -36,7 +36,7 @@ function getFaseLuaEmoji(fase: string): string {
 function App() {
   const [activeTab, setActiveTab] = useState<string>('consulta');
   const [selectedDate, setSelectedDate] = useState<string>('');
-  const [currentMonth, setCurrentMonth] = useState<number>(6); // Julho (0-based)
+  const [currentMonth, setCurrentMonth] = useState<number>(7); // Agosto (0-based)
   const [currentYear, setCurrentYear] = useState<number>(2025);
   const [resultadoConsulta, setResultadoConsulta] = useState<{ message: string; isFavorable: boolean } | null>(null);
   const [detalhesAstrologicos, setDetalhesAstrologicos] = useState<DailyData | null>(null);
@@ -48,10 +48,10 @@ function App() {
 
   useEffect(() => {
     carregarDados().then(() => {
-      // Inicializar com julho de 2025
+      // Inicializar com agosto de 2025
       setCurrentYear(2025);
-      setCurrentMonth(6); // Julho
-      setSelectedDate('2025-07-01');
+      setCurrentMonth(7); // Agosto
+      setSelectedDate('2025-08-01');
     });
   }, []);
 
@@ -69,7 +69,7 @@ function App() {
     const dadosDoDia = dadosDiarios[dateInput];
 
     if (!dadosDoDia) {
-      setResultadoConsulta({ message: "Dados disponíveis apenas para julho e agosto de 2025. Adquira o ebook completo para ter acesso a todos os meses!", isFavorable: false });
+      setResultadoConsulta({ message: "Dados disponíveis apenas para agosto e setembro de 2025. Adquira o ebook completo para ter acesso a todos os meses!", isFavorable: false });
       setDetalhesAstrologicos(null);
       return;
     }
@@ -195,19 +195,19 @@ function App() {
   };
 
   const handlePrevMonth = () => {
-    if (currentMonth === 6) { // Se está em julho, não pode voltar
-      alert("Dados disponíveis apenas para julho e agosto. Adquira o ebook completo!");
+    if (currentMonth === 7) { // Se está em agosto, não pode voltar
+      alert("Dados disponíveis apenas para agosto e setembro. Adquira o ebook completo!");
       return;
     }
-    setCurrentMonth(6); // Volta para julho
+    setCurrentMonth(7); // Volta para agosto
   };
 
   const handleNextMonth = () => {
-    if (currentMonth === 7) { // Se está em agosto, não pode avançar
-      alert("Dados disponíveis apenas para julho e agosto. Adquira o ebook completo!");
+    if (currentMonth === 8) { // Se está em setembro, não pode avançar
+      alert("Dados disponíveis apenas para agosto e setembro. Adquira o ebook completo!");
       return;
     }
-    setCurrentMonth(7); // Vai para agosto
+    setCurrentMonth(8); // Vai para setembro
   };
 
   return (
@@ -228,11 +228,11 @@ function App() {
       <div id="consulta" className={`tab-content ${activeTab === 'consulta' ? 'active' : ''}`}>
         <div className="consulta-card">
           <h1>Verificar Dia - Brinde</h1>
-          <p className="brinde-info">📅 Dados disponíveis: <strong>Julho e Agosto 2025</strong></p>
+          <p className="brinde-info">📅 Dados disponíveis: <strong>Agosto e Setembro 2025</strong></p>
           <form id="consulta-form" onSubmit={handleFormSubmit}>
             <div className="form-group">
               <label htmlFor="date-input">Selecione uma data:</label>
-              <input type="date" id="date-input" min="2025-07-01" max="2025-08-31" value={selectedDate} onChange={handleDateChange} required />
+              <input type="date" id="date-input" min="2025-08-01" max="2025-09-30" value={selectedDate} onChange={handleDateChange} required />
             </div>
             <button type="submit" className="btn" id="check-button">Verificar</button>
           </form>
@@ -277,7 +277,7 @@ function App() {
           
           <div className="cta-section">
             <h3>🌟 Quer ter acesso ao ano completo?</h3>
-            <p>Este é apenas um brinde com os meses de Julho e Agosto de 2025. Adquira o Ebook e o App completo e tenha acesso a:</p>
+            <p>Este é apenas um brinde com os meses de Agosto e Setembro de 2025. Adquira o Ebook e o App completo e tenha acesso a:</p>
             <ul>
               <li>✨ Dados de Janeiro 2025 a Março 2026</li>
               <li>🌙 Todas as fases da lua e horários da LFC (Lua fora de Curso)</li>
@@ -318,7 +318,7 @@ function App() {
           </div>
           
           <div className="cta-section">
-            <p><strong>📅 Brinde:</strong> Apenas Julho e Agosto de 2025</p>
+            <p><strong>📅 Brinde:</strong> Apenas Agosto e Setembro de 2025</p>
             <p>Para ter acesso ao ano completo, adquira o Ebook!</p>
             <button className="btn-cta" onClick={handleRedirect}>Adquirir Ebook+App Completo</button>
           </div>
@@ -328,7 +328,7 @@ function App() {
       <div id="info" className={`tab-content ${activeTab === 'info' ? 'active' : ''}`}>
         <div className="info-card">
           <h3>🎁 Sobre este Brinde</h3>
-          <p>Este aplicativo exclusivo contém dados astrológicos para <strong>Julho e Agosto de 2025</strong>. <br/> Ele é uma amostra grátis, para acessar a versão completa adquira o ebook completo "Ajuda do Céu".</p>
+          <p>Este aplicativo exclusivo contém dados astrológicos para <strong>Agosto e Setembro de 2025</strong>. <br/> Ele é uma amostra grátis, para acessar a versão completa adquira o ebook completo "Ajuda do Céu".</p>
         </div>
 
         <div className="info-card">
