@@ -195,19 +195,23 @@ function App() {
   };
 
   const handlePrevMonth = () => {
-    if (currentMonth === 7) { // Se está em agosto, não pode voltar
-      alert("Dados disponíveis apenas para agosto e setembro. Adquira o ebook completo!");
-      return;
-    }
-    setCurrentMonth(7); // Volta para agosto
+    setCurrentMonth(prevMonth => {
+      if (prevMonth === 7) { // Se está em agosto, não pode voltar
+        alert("Dados disponíveis apenas para agosto e setembro. Adquira o Ebook e receba o App completo!");
+        return prevMonth;
+      }
+      return prevMonth - 1;
+    });
   };
 
   const handleNextMonth = () => {
-    if (currentMonth === 8) { // Se está em setembro, não pode avançar
-      alert("Dados disponíveis apenas para agosto e setembro. Adquira o ebook completo!");
-      return;
-    }
-    setCurrentMonth(8); // Vai para setembro
+    setCurrentMonth(prevMonth => {
+      if (prevMonth === 8) { // Se está em setembro, não pode avançar
+        alert("Dados disponíveis apenas para agosto e setembro. Adquira o Ebook e receba o App completo!");
+        return prevMonth;
+      }
+      return prevMonth + 1;
+    });
   };
 
   return (
