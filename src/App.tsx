@@ -226,7 +226,7 @@ function App() {
       <div className="tabs">
         <button className={`tab ${activeTab === 'consulta' ? 'active' : ''}`} onClick={() => openTab('consulta')}>Consulta</button>
         <button className={`tab ${activeTab === 'calendario' ? 'active' : ''}`} onClick={() => openTab('calendario')}>Calendário</button>
-        <button className={`tab ${activeTab === 'info' ? 'active' : ''}`} onClick={() => openTab('info')}>Info</button>
+        <button className={`tab ${activeTab === 'info' ? 'active' : ''}`} onClick={() => openTab('info')}>Como usar o App</button>
       </div>
 
       <div id="consulta" className={`tab-content ${activeTab === 'consulta' ? 'active' : ''}`}>
