@@ -48,10 +48,26 @@ function App() {
 
   useEffect(() => {
     carregarDados().then(() => {
-      // Inicializar com agosto de 2025
-      setCurrentYear(2025);
-      setCurrentMonth(7); // Agosto
-      setSelectedDate('2025-08-01');
+      const hoje = new Date();
+      const hojeAno = hoje.getFullYear();
+      const hojeMes = hoje.getMonth();
+      const hojeDia = hoje.getDate();
+
+      // Verifica se a data atual está dentro do intervalo de dados (Agosto/Setembro 2025)
+      if (hojeAno === 2025 && (hojeMes === 7 || hojeMes === 8)) {
+        const dataFormatada = `${hojeAno}-${(hojeMes + 1).toString().padStart(2, '0')}-${hojeDia.toString().padStart(2, '0')}`;
+        setCurrentYear(hojeAno);
+        setCurrentMonth(hojeMes);
+        setSelectedDate(dataFormatada);
+        verificarData(dataFormatada);
+      } else {
+        // Se não estiver no intervalo, usa o primeiro dia do intervalo como padrão
+        const defaultDate = '2025-08-01';
+        setCurrentYear(2025);
+        setCurrentMonth(7); // Agosto
+        setSelectedDate(defaultDate);
+        verificarData(defaultDate);
+      }
     });
   }, []);
 
