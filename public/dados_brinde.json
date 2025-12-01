@@ -1,248 +1,93 @@
 {
-  "2025-08-01": {
-    "fase_lua": "Crescente",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": true,
-      "periodo": "18/07/2025 a 11/08/2025"
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-08-02": {
+  "2025-12-01": {
     "fase_lua": "Crescente",
     "lfc": [
       {
-        "inicio": "22:08",
-        "fim": "03:02"
+        "inicio": "15:16",
+        "fim": "00:14"
       }
     ],
     "mercurio_retrogrado": {
-      "status": true,
-      "periodo": "18/07/2025 a 11/08/2025"
+      "status": false,
+      "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
       "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-03": {
+  "2025-12-02": {
     "fase_lua": "Crescente",
     "lfc": [
       {
         "inicio": "00:00",
-        "fim": "03:02"
+        "fim": "00:14"
       }
     ],
     "mercurio_retrogrado": {
-      "status": true,
-      "periodo": "18/07/2025 a 11/08/2025"
+      "status": false,
+      "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
       "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-04": {
+  "2025-12-03": {
+    "fase_lua": "Crescente",
+    "lfc": [
+      {
+        "inicio": "22:51",
+        "fim": "23:49"
+      }
+    ],
+    "mercurio_retrogrado": {
+      "status": false,
+      "periodo": null
+    },
+    "outros_retrogrados": [
+      "Netuno Retrógrado (04/07 a 10/12)",
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
+    ],
+    "transitos": [
+      "Plutão em Aquário"
+    ],
+    "eclipse": null
+  },
+  "2025-12-04": {
     "fase_lua": "Crescente",
     "lfc": [],
     "mercurio_retrogrado": {
-      "status": true,
-      "periodo": "18/07/2025 a 11/08/2025"
+      "status": false,
+      "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
       "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-05": {
-    "fase_lua": "Crescente",
-    "lfc": [
-      {
-        "inicio": "12:30",
-        "fim": "14:05"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": true,
-      "periodo": "18/07/2025 a 11/08/2025"
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-08-06": {
-    "fase_lua": "Crescente",
-    "lfc": [
-      {
-        "inicio": "14:41",
-        "fim": "22:19"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": true,
-      "periodo": "18/07/2025 a 11/08/2025"
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-08-07": {
-    "fase_lua": "Crescente",
-    "lfc": [
-      {
-        "inicio": "00:00",
-        "fim": "22:19"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": true,
-      "periodo": "18/07/2025 a 11/08/2025"
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-08-08": {
-    "fase_lua": "Crescente",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": true,
-      "periodo": "18/07/2025 a 11/08/2025"
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-08-09": {
+  "2025-12-05": {
     "fase_lua": "Cheia",
     "lfc": [
       {
-        "inicio": "04:56",
-        "fim": "03:51"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": true,
-      "periodo": "18/07/2025 a 11/08/2025"
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-08-10": {
-    "fase_lua": "Cheia",
-    "lfc": [
-      {
-        "inicio": "00:00",
-        "fim": "03:51"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": true,
-      "periodo": "18/07/2025 a 11/08/2025"
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-08-11": {
-    "fase_lua": "Cheia",
-    "lfc": [
-      {
-        "inicio": "03:56",
-        "fim": "07:34"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": true,
-      "periodo": "18/07/2025 a 11/08/2025"
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-08-12": {
-    "fase_lua": "Cheia",
-    "lfc": [
-      {
-        "inicio": "00:00",
-        "fim": "07:34"
+        "inicio": "21:56",
+        "fim": "22:55"
       }
     ],
     "mercurio_retrogrado": {
@@ -250,63 +95,16 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
       "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-13": {
-    "fase_lua": "Cheia",
-    "lfc": [
-      {
-        "inicio": "19:55",
-        "fim": "10:23"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-08-14": {
-    "fase_lua": "Cheia",
-    "lfc": [
-      {
-        "inicio": "00:00",
-        "fim": "10:23"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-08-15": {
+  "2025-12-06": {
     "fase_lua": "Cheia",
     "lfc": [],
     "mercurio_retrogrado": {
@@ -314,22 +112,21 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
       "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-16": {
-    "fase_lua": "Minguante",
+  "2025-12-07": {
+    "fase_lua": "Cheia",
     "lfc": [
       {
-        "inicio": "02:13",
-        "fim": "13:02"
+        "inicio": "22:46",
+        "fim": "23:49"
       }
     ],
     "mercurio_retrogrado": {
@@ -337,81 +134,55 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
       "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-17": {
-    "fase_lua": "Minguante",
+  "2025-12-08": {
+    "fase_lua": "Cheia",
     "lfc": [],
     "mercurio_retrogrado": {
       "status": false,
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
       "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-18": {
-    "fase_lua": "Minguante",
-    "lfc": [
-      {
-        "inicio": "08:54",
-        "fim": "16:06"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-08-19": {
-    "fase_lua": "Minguante",
+  "2025-12-09": {
+    "fase_lua": "Cheia",
     "lfc": [],
     "mercurio_retrogrado": {
       "status": false,
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
       "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-20": {
-    "fase_lua": "Minguante",
+  "2025-12-10": {
+    "fase_lua": "Cheia",
     "lfc": [
       {
-        "inicio": "09:28",
-        "fim": "20:18"
+        "inicio": "01:57",
+        "fim": "04:21"
       }
     ],
     "mercurio_retrogrado": {
@@ -419,22 +190,37 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
       "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-21": {
+  "2025-12-11": {
+    "fase_lua": "Cheia",
+    "lfc": [],
+    "mercurio_retrogrado": {
+      "status": false,
+      "periodo": null
+    },
+    "outros_retrogrados": [
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
+    ],
+    "transitos": [
+      "Plutão em Aquário"
+    ],
+    "eclipse": null
+  },
+  "2025-12-12": {
     "fase_lua": "Minguante",
     "lfc": [
       {
-        "inicio": "15:15",
-        "fim": "02:25"
+        "inicio": "11:52",
+        "fim": "13:05"
       }
     ],
     "mercurio_retrogrado": {
@@ -442,17 +228,15 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-22": {
+  "2025-12-13": {
     "fase_lua": "Minguante",
     "lfc": [],
     "mercurio_retrogrado": {
@@ -460,22 +244,36 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-23": {
-    "fase_lua": "Nova",
+  "2025-12-14": {
+    "fase_lua": "Minguante",
+    "lfc": [],
+    "mercurio_retrogrado": {
+      "status": false,
+      "periodo": null
+    },
+    "outros_retrogrados": [
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
+    ],
+    "transitos": [
+      "Plutão em Aquário"
+    ],
+    "eclipse": null
+  },
+  "2025-12-15": {
+    "fase_lua": "Minguante",
     "lfc": [
       {
-        "inicio": "00:00",
-        "fim": "02:25"
+        "inicio": "00:37",
+        "fim": "00:52"
       }
     ],
     "mercurio_retrogrado": {
@@ -483,17 +281,68 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-24": {
+  "2025-12-16": {
+    "fase_lua": "Minguante",
+    "lfc": [],
+    "mercurio_retrogrado": {
+      "status": false,
+      "periodo": null
+    },
+    "outros_retrogrados": [
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
+    ],
+    "transitos": [
+      "Plutão em Aquário"
+    ],
+    "eclipse": null
+  },
+  "2025-12-17": {
+    "fase_lua": "Minguante",
+    "lfc": [
+      {
+        "inicio": "12:25",
+        "fim": "13:40"
+      }
+    ],
+    "mercurio_retrogrado": {
+      "status": false,
+      "periodo": null
+    },
+    "outros_retrogrados": [
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
+    ],
+    "transitos": [
+      "Plutão em Aquário"
+    ],
+    "eclipse": null
+  },
+  "2025-12-18": {
+    "fase_lua": "Minguante",
+    "lfc": [],
+    "mercurio_retrogrado": {
+      "status": false,
+      "periodo": null
+    },
+    "outros_retrogrados": [
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
+    ],
+    "transitos": [
+      "Plutão em Aquário"
+    ],
+    "eclipse": null
+  },
+  "2025-12-19": {
     "fase_lua": "Nova",
     "lfc": [],
     "mercurio_retrogrado": {
@@ -501,22 +350,20 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-25": {
+  "2025-12-20": {
     "fase_lua": "Nova",
     "lfc": [
       {
-        "inicio": "10:55",
-        "fim": "11:09"
+        "inicio": "00:42",
+        "fim": "01:54"
       }
     ],
     "mercurio_retrogrado": {
@@ -524,63 +371,15 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-26": {
-    "fase_lua": "Nova",
-    "lfc": [
-      {
-        "inicio": "23:08",
-        "fim": "22:28"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-08-27": {
-    "fase_lua": "Nova",
-    "lfc": [
-      {
-        "inicio": "00:00",
-        "fim": "22:28"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-08-28": {
+  "2025-12-21": {
     "fase_lua": "Nova",
     "lfc": [],
     "mercurio_retrogrado": {
@@ -588,22 +387,20 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-29": {
+  "2025-12-22": {
     "fase_lua": "Nova",
     "lfc": [
       {
-        "inicio": "21:48",
-        "fim": "11:06"
+        "inicio": "11:45",
+        "fim": "12:53"
       }
     ],
     "mercurio_retrogrado": {
@@ -611,22 +408,36 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-30": {
+  "2025-12-23": {
+    "fase_lua": "Nova",
+    "lfc": [],
+    "mercurio_retrogrado": {
+      "status": false,
+      "periodo": null
+    },
+    "outros_retrogrados": [
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
+    ],
+    "transitos": [
+      "Plutão em Aquário"
+    ],
+    "eclipse": null
+  },
+  "2025-12-24": {
     "fase_lua": "Nova",
     "lfc": [
       {
-        "inicio": "00:00",
-        "fim": "11:06"
+        "inicio": "18:43",
+        "fim": "22:10"
       }
     ],
     "mercurio_retrogrado": {
@@ -634,99 +445,52 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-08-31": {
-    "fase_lua": "Crescente",
+  "2025-12-25": {
+    "fase_lua": "Nova",
     "lfc": [],
     "mercurio_retrogrado": {
       "status": false,
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-09-01": {
-    "fase_lua": "Crescente",
-    "lfc": [
-      {
-        "inicio": "22:40",
-        "fim": "22:46"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-02": {
-    "fase_lua": "Crescente",
+  "2025-12-26": {
+    "fase_lua": "Nova",
     "lfc": [],
     "mercurio_retrogrado": {
       "status": false,
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-09-03": {
-    "fase_lua": "Crescente",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-04": {
+  "2025-12-27": {
     "fase_lua": "Crescente",
     "lfc": [
       {
-        "inicio": "07:09",
-        "fim": "07:33"
+        "inicio": "04:05",
+        "fim": "05:03"
       }
     ],
     "mercurio_retrogrado": {
@@ -734,22 +498,20 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-09-05": {
+  "2025-12-28": {
     "fase_lua": "Crescente",
     "lfc": [
       {
-        "inicio": "17:53",
-        "fim": "12:55"
+        "inicio": "23:14",
+        "fim": "08:58"
       }
     ],
     "mercurio_retrogrado": {
@@ -757,22 +519,20 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-09-06": {
+  "2025-12-29": {
     "fase_lua": "Crescente",
     "lfc": [
       {
         "inicio": "00:00",
-        "fim": "12:55"
+        "fim": "08:58"
       }
     ],
     "mercurio_retrogrado": {
@@ -780,513 +540,15 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
     ],
     "eclipse": null
   },
-  "2025-09-07": {
-    "fase_lua": "Cheia",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": {
-      "tipo": "Lunar Total",
-      "horario": "15:12",
-      "descricao": "Fechamento de ciclos, emoções intensas. Evitar impulsividade."
-    }
-  },
-  "2025-09-08": {
-    "fase_lua": "Cheia",
-    "lfc": [
-      {
-        "inicio": "14:45",
-        "fim": "15:38"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-09": {
-    "fase_lua": "Cheia",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-10": {
-    "fase_lua": "Cheia",
-    "lfc": [
-      {
-        "inicio": "03:55",
-        "fim": "17:04"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-11": {
-    "fase_lua": "Cheia",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-12": {
-    "fase_lua": "Cheia",
-    "lfc": [
-      {
-        "inicio": "17:15",
-        "fim": "18:39"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-13": {
-    "fase_lua": "Cheia",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-14": {
-    "fase_lua": "Minguante",
-    "lfc": [
-      {
-        "inicio": "19:48",
-        "fim": "21:31"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-15": {
-    "fase_lua": "Minguante",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-16": {
-    "fase_lua": "Minguante",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-17": {
-    "fase_lua": "Minguante",
-    "lfc": [
-      {
-        "inicio": "00:15",
-        "fim": "02:21"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-18": {
-    "fase_lua": "Minguante",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-19": {
-    "fase_lua": "Minguante",
-    "lfc": [
-      {
-        "inicio": "09:23",
-        "fim": "09:24"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-20": {
-    "fase_lua": "Minguante",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-21": {
-    "fase_lua": "Nova",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": {
-      "tipo": "Solar Parcial",
-      "horario": "16:43",
-      "descricao": "Novos começos. Esperar alguns dias para decisões importantes."
-    }
-  },
-  "2025-09-22": {
-    "fase_lua": "Nova",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-23": {
-    "fase_lua": "Nova",
-    "lfc": [
-      {
-        "inicio": "13:03",
-        "fim": "06:01"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-24": {
-    "fase_lua": "Nova",
-    "lfc": [
-      {
-        "inicio": "00:00",
-        "fim": "06:01"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-25": {
-    "fase_lua": "Nova",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-26": {
-    "fase_lua": "Nova",
-    "lfc": [
-      {
-        "inicio": "14:45",
-        "fim": "18:38"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-27": {
-    "fase_lua": "Nova",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-28": {
-    "fase_lua": "Nova",
-    "lfc": [],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-29": {
-    "fase_lua": "Crescente",
-    "lfc": [
-      {
-        "inicio": "02:45",
-        "fim": "06:56"
-      }
-    ],
-    "mercurio_retrogrado": {
-      "status": false,
-      "periodo": null
-    },
-    "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
-    ],
-    "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
-    ],
-    "eclipse": null
-  },
-  "2025-09-30": {
+  "2025-12-30": {
     "fase_lua": "Crescente",
     "lfc": [],
     "mercurio_retrogrado": {
@@ -1294,14 +556,27 @@
       "periodo": null
     },
     "outros_retrogrados": [
-      "Plutão Retrógrado (04/05 a 13/10)",
-      "Netuno Retrógrado (04/07 a 10/12)",
-      "Saturno Retrógrado (13/07 a 28/11)",
-      "Urano Retrógrado (06/09 a 03/02)"
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
     ],
     "transitos": [
-      "Plutão em Aquário",
-      "Urano em Gêmeos"
+      "Plutão em Aquário"
+    ],
+    "eclipse": null
+  },
+  "2025-12-31": {
+    "fase_lua": "Crescente",
+    "lfc": [],
+    "mercurio_retrogrado": {
+      "status": false,
+      "periodo": null
+    },
+    "outros_retrogrados": [
+      "Urano Retrógrado (06/09 a 03/02)",
+      "Júpiter Retrógrado (11/11 a 11/03)"
+    ],
+    "transitos": [
+      "Plutão em Aquário"
     ],
     "eclipse": null
   }

@@ -3,7 +3,7 @@ import './App.css';
 import { AstrologicalData, DailyData } from './types';
 import luaIcon from './assets/lua-icon.png';
 
-// Dados astrológicos limitados (agosto e setembro 2025)
+// Dados astrológicos limitados (dezembro 2025)
 let dadosDiarios: AstrologicalData | null = null;
 
 // Função para carregar os dados astrológicos limitados
@@ -15,7 +15,7 @@ async function carregarDados(): Promise<void> {
     }
     const data: AstrologicalData = await response.json();
     dadosDiarios = data;
-    console.log("Dados astrológicos de agosto e setembro carregados com sucesso");
+    console.log("Dados astrológicos de dezembro carregados com sucesso");
   } catch (error) {
     console.error("Erro ao carregar dados astrológicos:", error);
     alert("Erro ao carregar os dados astrológicos. Tente recarregar a página.");
@@ -36,7 +36,7 @@ function getFaseLuaEmoji(fase: string): string {
 function App() {
   const [activeTab, setActiveTab] = useState<string>('consulta');
   const [selectedDate, setSelectedDate] = useState<string>('');
-  const [currentMonth, setCurrentMonth] = useState<number>(7); // Agosto (0-based)
+  const [currentMonth, setCurrentMonth] = useState<number>(11); // Dezembro (0-based)
   const [currentYear, setCurrentYear] = useState<number>(2025);
   const [resultadoConsulta, setResultadoConsulta] = useState<{ message: string; isFavorable: boolean } | null>(null);
   const [detalhesAstrologicos, setDetalhesAstrologicos] = useState<DailyData | null>(null);
@@ -53,8 +53,8 @@ function App() {
       const hojeMes = hoje.getMonth();
       const hojeDia = hoje.getDate();
 
-      // Verifica se a data atual está dentro do intervalo de dados (Agosto/Setembro 2025)
-      if (hojeAno === 2025 && (hojeMes === 7 || hojeMes === 8)) {
+      // Verifica se a data atual está dentro do intervalo de dados (Dezembro 2025)
+      if (hojeAno === 2025 && hojeMes === 11) {
         const dataFormatada = `${hojeAno}-${(hojeMes + 1).toString().padStart(2, '0')}-${hojeDia.toString().padStart(2, '0')}`;
         setCurrentYear(hojeAno);
         setCurrentMonth(hojeMes);
@@ -62,9 +62,9 @@ function App() {
         verificarData(dataFormatada);
       } else {
         // Se não estiver no intervalo, usa o primeiro dia do intervalo como padrão
-        const defaultDate = '2025-08-01';
+        const defaultDate = '2025-12-01';
         setCurrentYear(2025);
-        setCurrentMonth(7); // Agosto
+        setCurrentMonth(11); // Dezembro
         setSelectedDate(defaultDate);
         verificarData(defaultDate);
       }
@@ -85,7 +85,7 @@ function App() {
     const dadosDoDia = dadosDiarios[dateInput];
 
     if (!dadosDoDia) {
-      setResultadoConsulta({ message: "Dados disponíveis apenas para agosto e setembro de 2025. Adquira o ebook completo para ter acesso a todos os meses!", isFavorable: false });
+      setResultadoConsulta({ message: "Dados disponíveis apenas para dezembro de 2025. Adquira o ebook completo para ter acesso a todos os meses!", isFavorable: false });
       setDetalhesAstrologicos(null);
       return;
     }
@@ -212,8 +212,8 @@ function App() {
 
   const handlePrevMonth = () => {
     setCurrentMonth(prevMonth => {
-      if (prevMonth === 7) { // Se está em agosto, não pode voltar
-        alert("Dados disponíveis apenas para agosto e setembro. Adquira o Ebook e receba o App completo!");
+      if (prevMonth === 11) { // Se está em dezembro, não pode voltar
+        alert("Dados disponíveis apenas para dezembro. Adquira o Ebook e receba o App completo!");
         return prevMonth;
       }
       return prevMonth - 1;
@@ -222,8 +222,8 @@ function App() {
 
   const handleNextMonth = () => {
     setCurrentMonth(prevMonth => {
-      if (prevMonth === 8) { // Se está em setembro, não pode avançar
-        alert("Dados disponíveis apenas para agosto e setembro. Adquira o Ebook e receba o App completo!");
+      if (prevMonth === 11) { // Se está em dezembro, não pode avançar
+        alert("Dados disponíveis apenas para dezembro. Adquira o Ebook e receba o App completo!");
         return prevMonth;
       }
       return prevMonth + 1;
@@ -248,11 +248,11 @@ function App() {
       <div id="consulta" className={`tab-content ${activeTab === 'consulta' ? 'active' : ''}`}>
         <div className="consulta-card">
           <h1>Verificar Dia - Brinde</h1>
-          <p className="brinde-info">📅 Dados disponíveis: <strong>Agosto e Setembro 2025</strong></p>
+          <p className="brinde-info">📅 Dados disponíveis: <strong>Dezembro 2025</strong></p>
           <form id="consulta-form" onSubmit={handleFormSubmit}>
             <div className="form-group">
               <label htmlFor="date-input">Selecione uma data:</label>
-              <input type="date" id="date-input" min="2025-08-01" max="2025-09-30" value={selectedDate} onChange={handleDateChange} required />
+              <input type="date" id="date-input" min="2025-12-01" max="2025-12-31" value={selectedDate} onChange={handleDateChange} required />
             </div>
             <button type="submit" className="btn" id="check-button">Verificar</button>
           </form>
@@ -297,9 +297,9 @@ function App() {
           
           <div className="cta-section">
             <h3>🌟 Quer ter acesso ao ano completo?</h3>
-            <p>Este é apenas um brinde com os meses de Agosto e Setembro de 2025. Adquira o Ebook e o App completo e tenha acesso a:</p>
+            <p>Este é apenas um brinde com o mês de Dezembro de 2025. Adquira o Ebook e o App completo e tenha acesso a:</p>
             <ul>
-              <li>✨ Dados de Janeiro 2025 a Março 2026</li>
+              <li>✨ Dados de Dezembro 2025 a Dezembro 2026</li>
               <li>🌙 Todas as fases da lua e horários da LFC (Lua fora de Curso)</li>
               <li>⚡ Períodos completos de Mercúrio Retrógrado</li>
               <li>🌟 Trânsitos planetários importantes</li>
@@ -338,7 +338,7 @@ function App() {
           </div>
           
           <div className="cta-section">
-            <p><strong>📅 Brinde:</strong> Apenas Agosto e Setembro de 2025</p>
+            <p><strong>📅 Brinde:</strong> Apenas Dezembro de 2025</p>
             <p>Para ter acesso ao ano completo, adquira o Ebook!</p>
             <button className="btn-cta" onClick={handleRedirect}>Adquirir Ebook+App Completo</button>
           </div>
@@ -348,7 +348,7 @@ function App() {
       <div id="info" className={`tab-content ${activeTab === 'info' ? 'active' : ''}`}>
         <div className="info-card">
           <h3>🎁 Sobre este Brinde</h3>
-          <p>Este aplicativo exclusivo contém dados astrológicos para <strong>Agosto e Setembro de 2025</strong>. <br/> Ele é uma amostra grátis, para acessar a versão completa adquira o ebook completo "Ajuda do Céu".</p>
+          <p>Este aplicativo exclusivo contém dados astrológicos para <strong>Dezembro de 2025</strong>. <br/> Ele é uma amostra grátis, para acessar a versão completa adquira o ebook completo "Ajuda do Céu".</p>
         </div>
 
         <div className="info-card">
@@ -368,7 +368,7 @@ function App() {
           <h3>🌟 Ebook e App Completo</h3>
           <p>O Ebook "Ajuda do Céu" contém:</p>
           <ul>
-            <li>📅 Dados de Janeiro 2025 a Março 2026</li>
+            <li>📅 Dados de Dezembro 2025 a Dezembro 2026</li>
             <li>🌙 Todas as fases da lua e horários da LFC (Lua fora de Curso)</li>
             <li>⚡ Períodos completos de Mercúrio Retrógrado</li>
             <li>🌟 Trânsitos planetários importantes</li>
